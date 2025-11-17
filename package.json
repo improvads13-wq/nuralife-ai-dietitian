@@ -1,0 +1,48 @@
+{
+  "name": "nuralife-ai-dietitian",
+  "version": "1.0.0",
+  "description": "NuraLife - AI-Powered Dietitian & Wellness App with Realtime Voice Interaction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npx supabase functions deploy make-server-a2fc8e76",
+    "deploy:all": "npm run deploy",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.454.0",
+    "motion": "^11.11.17",
+    "recharts": "^2.15.0",
+    "sonner": "^2.0.3",
+    "date-fns": "^4.1.0",
+    "react-hook-form": "^7.55.0",
+    "zod": "^3.24.1",
+    "@hookform/resolvers": "^3.9.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "embla-carousel-react": "^8.5.1",
+    "vaul": "^1.1.1",
+    "cmdk": "^1.0.4",
+    "react-day-picker": "^9.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
